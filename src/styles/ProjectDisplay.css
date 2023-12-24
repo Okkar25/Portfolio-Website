@@ -1,0 +1,96 @@
+.project {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project h1 {
+  margin-top: 50px;
+  color: #3e497a;
+  font-size: 35px;
+  text-align: center;
+}
+.project img {
+  width: 700px;
+  border-radius: 20px;
+}
+
+.project p {
+  font-size: 30px;
+  color: #3e497a;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.project svg {
+  font-size: 60px;
+  color: #3e497a;
+}
+
+.demo-icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.demoBtn {
+  background-color: #ff5959;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  border-width: 3px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+@media only screen and (max-width: 700px) {
+  .project img {
+    width: 500px;
+    border-radius: 10px;
+  }
+  .project p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .project svg {
+    font-size: 40px;
+  }
+  .demoBtn {
+    font-size: 15px;
+    padding: 7px 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project img {
+    width: 400px;
+    border-radius: 10px;
+  }
+  .project p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .project svg {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .project img {
+    width: 350px;
+    border-radius: 10px;
+  }
+  .project p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .project svg {
+    font-size: 40px;
+  }
+}
