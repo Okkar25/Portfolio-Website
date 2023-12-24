@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Montserrat:wght@400;500&family=Poppins:wght@300;400&family=Rethink+Sans:wght@400;500&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500&display=swap");
+
+.expLabel {
+  font-weight: bold;
+  font-family: monospace;
+  color: #21325e;
+}
+
+.vertical-timeline-element--education h3 {
+  font-size: 18px;
+}
+
+.experience h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+.experience .expTitle {
+  font-family: "Rethink Sans", sans-serif;
+}
+
+.experience .expLabel {
+  font-family: "Poppins", sans-serif;
+}
