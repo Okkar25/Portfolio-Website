@@ -120,11 +120,16 @@ const Experience = () => {
           </h3>
           <p className="expTitle">"Open to Work"</p>
           <p className="expLabel">
-            &#128313; Skilled in HTML, CSS, Bootstrap, TailwindCSS and
-            appropriate understanding of JavaScript / TypeScript and
-            User-friendly interface designs. Committed to producing high-quality
-            work, continuously improving skills and welcoming feedback
+            &#128313; Skilled in HTML, CSS, Bootstrap, SCSS, TailwindCSS, MUI
+            and appropriate understanding of JavaScript / TypeScript along with
+            frameworks, ReactJS and NextJS.
           </p>
+          <p className="expLabel">
+            &#128313; Proficient in creating user-friendly interface designs &
+            responsive web pages. Familiar with version control (Git), command
+            line (CLI), package managers (NPM & YARN) and basic UI/UX concepts.
+          </p>
+
           <p className="expLabel">
             &#128313; Committed to producing high-quality work in time to meet
             deadlines, continuously improving skills and welcoming feedbacks.
