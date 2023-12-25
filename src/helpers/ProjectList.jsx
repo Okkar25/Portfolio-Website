@@ -26,7 +26,7 @@ export const ProjectList = [
     skills:
       "NextJS, TypeScript, MUI, Prisma, Postgresql, NextAuth, Redux Toolkit",
     github: "https://github.com/Okkar25/E-commerce-Fullstack-Mini-App",
-    demo: "https://e-commerce-fullstack-deployment.vercel.app/",
+    demo: "https://e-commerce-fullstack-deployment-okkar25.vercel.app/",
   },
   {
     id: 3,
