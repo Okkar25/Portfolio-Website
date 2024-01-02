@@ -3,13 +3,14 @@ import Car from "../assets/car.png";
 import MiniEcom from "../assets/ecom1.png";
 import EcomDom from "../assets/ecomdom.png";
 import FoodOrder from "../assets/food1.png";
+import InvoiceReact from "../assets/invoice1.png";
 import Invoice from "../assets/invoicedom.png";
 import PhoneFeat from "../assets/phonefeature.png";
 import Piano from "../assets/piano.png";
 import Portfolio from "../assets/portfolio1.png";
 import TailHome from "../assets/tailwindhome.png";
 import ToDo from "../assets/todo2.png";
-import Weather from "../assets/weather1.png"
+import Weather from "../assets/weather1.png";
 
 export const ProjectList = [
   {
@@ -55,22 +56,30 @@ export const ProjectList = [
   },
   {
     id: 6,
+    name: "Invoice App React",
+    image: InvoiceReact,
+    skills: "React, JavaScript, TailwindCSS, Flowbite",
+    github: "https://github.com/Okkar25/Invoice-App-React?tab=readme-ov-file",
+    demo: "https://invoice-app-react-tailwind.netlify.app/",
+  },
+  {
+    id: 7,
     name: "Tailwind Home Rent Template",
     image: TailHome,
-    skills: "HTML, TailwindCSS",
+    skills: "HTML, CSS, TailwindCSS",
     github: "https://github.com/Okkar25/Tailwind-Rental-Home-Template",
     demo: "https://dashing-beignet-bda05b.netlify.app/",
   },
   {
-    id: 7,
+    id: 8,
     name: "E-Commerce-Dom",
     image: EcomDom,
-    skills: "HTML, CSS, Vanilla JavaScript",
+    skills: "CSS, Vanilla JavaScript, BootStrap",
     github: "https://github.com/Okkar25/E-Commerce-Add-to-Cart-DOM",
     demo: "https://ecomerce-add-to-cart-novak.netlify.app/",
   },
   {
-    id: 8,
+    id: 9,
     name: "Phone Features",
     image: PhoneFeat,
     skills: "HTML, CSS, Vanilla JavaScript",
@@ -78,15 +87,15 @@ export const ProjectList = [
     demo: "https://frolicking-khapse-6a989c.netlify.app/",
   },
   {
-    id: 9,
+    id: 10,
     name: "Invoice App",
     image: Invoice,
-    skills: "ReactJS, TailwindCSS, JavaScript",
+    skills: "CSS, BootStrap, Vanilla JavaScript",
     github: "https://github.com/Okkar25/Invoice-App-DOM",
     demo: "https://applestore-invoice-app.netlify.app/",
   },
   {
-    id: 10,
+    id: 11,
     name: "YouTube Clone UI",
     image: YouTube,
     skills: "HTML, CSS",
@@ -94,7 +103,7 @@ export const ProjectList = [
     demo: "https://you-tube-clone-novak.netlify.app/",
   },
   {
-    id: 11,
+    id: 12,
     name: "Functional Piano",
     image: Piano,
     skills: "HTML, CSS, Vanilla JavaScript",
@@ -102,7 +111,7 @@ export const ProjectList = [
     demo: "https://regal-unicorn-7dfdb0.netlify.app/",
   },
   {
-    id: 12,
+    id: 13,
     name: "Running Car Animation",
     image: Car,
     skills: "HTML, CSS",
