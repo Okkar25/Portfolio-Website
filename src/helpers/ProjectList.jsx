@@ -3,7 +3,7 @@ import Car from "../assets/car.png";
 import MiniEcom from "../assets/ecom1.png";
 import EcomDom from "../assets/ecomdom.png";
 import FoodOrder from "../assets/food1.png";
-import InvoiceReact from "../assets/invoice1.png";
+import InvoiceReact from "../assets/invoice3.png";
 import Invoice from "../assets/invoicedom.png";
 import PhoneFeat from "../assets/phonefeature.png";
 import Piano from "../assets/piano.png";
