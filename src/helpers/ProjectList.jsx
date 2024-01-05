@@ -1,5 +1,6 @@
 import YouTube from "../assets/YT.png";
 import Car from "../assets/car.png";
+import CodePen from "../assets/codepen2.png";
 import MiniEcom from "../assets/ecom1.png";
 import EcomDom from "../assets/ecomdom.png";
 import FoodOrder from "../assets/food1.png";
@@ -15,11 +16,11 @@ import Weather from "../assets/weather1.png";
 export const ProjectList = [
   {
     id: 1,
-    name: "Portfolio Website",
-    image: Portfolio,
-    skills: "ReactJS, JavaScript, CSS",
-    github: "https://github.com/Okkar25/Portfolio-Website",
-    demo: "https://portfolio-okkar-aung.vercel.app/",
+    name: "Code Pen Clone",
+    image: CodePen,
+    skills: "ReactJS, CodeMirror, JavaScript, Vanilla CSS",
+    github: "https://github.com/Okkar25/Code-Pen-Clone",
+    demo: "#",
   },
   {
     id: 2,
@@ -46,8 +47,18 @@ export const ProjectList = [
     github: "https://github.com/Okkar25/Food-Order-App",
     demo: "#",
   },
+
   {
     id: 5,
+    name: "Portfolio Website",
+    image: Portfolio,
+    skills: "ReactJS, JavaScript, CSS",
+    github: "https://github.com/Okkar25/Portfolio-Website",
+    demo: "https://portfolio-okkar-aung.vercel.app/",
+  },
+
+  {
+    id: 6,
     name: "ToDo List",
     image: ToDo,
     skills: "ReactJS, TailwindCSS, JavaScript",
@@ -55,7 +66,7 @@ export const ProjectList = [
     demo: "https://to-do-list-react-neon.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     name: "Invoice App React",
     image: InvoiceReact,
     skills: "React, JavaScript, TailwindCSS, Flowbite",
@@ -63,7 +74,7 @@ export const ProjectList = [
     demo: "https://invoice-app-react-tailwind.netlify.app/",
   },
   {
-    id: 7,
+    id: 8,
     name: "Tailwind Home Rent Template",
     image: TailHome,
     skills: "HTML, CSS, TailwindCSS",
@@ -71,7 +82,7 @@ export const ProjectList = [
     demo: "https://dashing-beignet-bda05b.netlify.app/",
   },
   {
-    id: 8,
+    id: 9,
     name: "E-Commerce-Dom",
     image: EcomDom,
     skills: "CSS, Vanilla JavaScript, BootStrap",
@@ -79,7 +90,7 @@ export const ProjectList = [
     demo: "https://ecomerce-add-to-cart-novak.netlify.app/",
   },
   {
-    id: 9,
+    id: 10,
     name: "Phone Features",
     image: PhoneFeat,
     skills: "HTML, CSS, Vanilla JavaScript",
@@ -87,7 +98,7 @@ export const ProjectList = [
     demo: "https://frolicking-khapse-6a989c.netlify.app/",
   },
   {
-    id: 10,
+    id: 11,
     name: "Invoice App",
     image: Invoice,
     skills: "CSS, BootStrap, Vanilla JavaScript",
@@ -95,7 +106,7 @@ export const ProjectList = [
     demo: "https://applestore-invoice-app.netlify.app/",
   },
   {
-    id: 11,
+    id: 12,
     name: "YouTube Clone UI",
     image: YouTube,
     skills: "HTML, CSS",
@@ -103,7 +114,7 @@ export const ProjectList = [
     demo: "https://you-tube-clone-novak.netlify.app/",
   },
   {
-    id: 12,
+    id: 13,
     name: "Functional Piano",
     image: Piano,
     skills: "HTML, CSS, Vanilla JavaScript",
@@ -111,7 +122,7 @@ export const ProjectList = [
     demo: "https://regal-unicorn-7dfdb0.netlify.app/",
   },
   {
-    id: 13,
+    id: 14,
     name: "Running Car Animation",
     image: Car,
     skills: "HTML, CSS",
