@@ -20,7 +20,7 @@ export const ProjectList = [
     image: CodePen,
     skills: "ReactJS, CodeMirror, JavaScript, Vanilla CSS",
     github: "https://github.com/Okkar25/Code-Pen-Clone",
-    demo: "#",
+    demo: "https://code-pen-clone-okkar-aung.netlify.app/",
   },
   {
     id: 2,
