@@ -13,10 +13,19 @@ import Portfolio from "../assets/portfolio1.png";
 import TailHome from "../assets/tailwindhome.png";
 import ToDo from "../assets/todo2.png";
 import Weather from "../assets/weather1.png";
+import Spotify from "../assets/spotify2.png"
 
 export const ProjectList = [
   {
     id: 1,
+    name: "Music Streaming App (Spotify Clone)",
+    image: Spotify,
+    skills: "ReactJS, JavaScript, Styled Components, Axios",
+    github: "https://github.com/Okkar25/Spotify-Clone-Music-Streaming-App",
+    demo: "https://spotify-clone-okkar-aung.vercel.app/",
+  },
+  {
+    id: 2,
     name: "Code Pen Clone",
     image: CodePen,
     skills: "ReactJS, CodeMirror, JavaScript, Vanilla CSS",
@@ -24,7 +33,7 @@ export const ProjectList = [
     demo: "https://code-pen-clone-okkar-aung.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     name: "Mini E-Commerce App",
     image: MiniEcom,
     skills:
@@ -33,7 +42,7 @@ export const ProjectList = [
     demo: "https://e-commerce-fullstack-deployment-okkar25.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     name: "Weather App",
     image: Weather,
     skills: "ReactJS, JavaScript, CSS",
@@ -41,7 +50,7 @@ export const ProjectList = [
     demo: "https://weather-forecast-app-gradiant.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     name: "Food Order App",
     image: FoodOrder,
     skills: "NextJS, TypeScript, MUI, Prisma, Postgresql, Redux Toolkit",
@@ -50,7 +59,7 @@ export const ProjectList = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: "Portfolio Website",
     image: Portfolio,
     skills: "ReactJS, JavaScript, CSS",
@@ -59,7 +68,7 @@ export const ProjectList = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: "ToDo List",
     image: ToDo,
     skills: "ReactJS, TailwindCSS, JavaScript",
@@ -67,7 +76,7 @@ export const ProjectList = [
     demo: "https://to-do-list-react-neon.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     name: "Invoice App React",
     image: InvoiceReact,
     skills: "React, JavaScript, TailwindCSS, Flowbite",
@@ -76,7 +85,7 @@ export const ProjectList = [
   },
 
   {
-    id: 8,
+    id: 9,
     name: "Phone Contact App (JSON Server CRUD) ",
     image: PhoneContact,
     skills: "JavaScript, JSON Server, TailwindCSS",
@@ -85,7 +94,7 @@ export const ProjectList = [
   },
 
   {
-    id: 9,
+    id: 10,
     name: "E-Commerce-Dom",
     image: EcomDom,
     skills: "CSS, Vanilla JavaScript, BootStrap",
@@ -94,7 +103,7 @@ export const ProjectList = [
   },
 
   {
-    id: 10,
+    id: 11,
     name: "Tailwind Home Rent Template",
     image: TailHome,
     skills: "HTML, CSS, TailwindCSS",
@@ -103,7 +112,7 @@ export const ProjectList = [
   },
 
   {
-    id: 11,
+    id: 12,
     name: "Phone Features",
     image: PhoneFeat,
     skills: "HTML, CSS, Vanilla JavaScript",
@@ -112,7 +121,7 @@ export const ProjectList = [
   },
 
   {
-    id: 12,
+    id: 13,
     name: "Invoice App",
     image: Invoice,
     skills: "CSS, BootStrap, Vanilla JavaScript",
@@ -120,7 +129,7 @@ export const ProjectList = [
     demo: "https://applestore-invoice-app.netlify.app/",
   },
   {
-    id: 13,
+    id: 14,
     name: "YouTube Clone UI",
     image: YouTube,
     skills: "HTML, CSS",
@@ -128,7 +137,7 @@ export const ProjectList = [
     demo: "https://you-tube-clone-novak.netlify.app/",
   },
   {
-    id: 14,
+    id: 15,
     name: "Functional Piano",
     image: Piano,
     skills: "HTML, CSS, Vanilla JavaScript",
@@ -136,7 +145,7 @@ export const ProjectList = [
     demo: "https://regal-unicorn-7dfdb0.netlify.app/",
   },
   {
-    id: 15,
+    id: 16,
     name: "Running Car Animation",
     image: Car,
     skills: "HTML, CSS",
