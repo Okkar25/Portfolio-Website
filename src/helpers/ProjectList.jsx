@@ -1,19 +1,18 @@
-import PhoneContact from "../assets/PhoneContact.png";
+import CourseApp from "../assets/CourseApp.png";
 import YouTube from "../assets/YT.png";
 import Car from "../assets/car.png";
 import CodePen from "../assets/codepen2.png";
 import MiniEcom from "../assets/ecom1.png";
 import EcomDom from "../assets/ecomdom.png";
 import FoodOrder from "../assets/food1.png";
-import InvoiceReact from "../assets/invoice3.png";
 import Invoice from "../assets/invoicedom.png";
 import PhoneFeat from "../assets/phonefeature.png";
 import Piano from "../assets/piano.png";
 import Portfolio from "../assets/portfolio1.png";
+import Spotify from "../assets/spotify2.png";
 import TailHome from "../assets/tailwindhome.png";
 import ToDo from "../assets/todo2.png";
 import Weather from "../assets/weather1.png";
-import Spotify from "../assets/spotify2.png"
 
 export const ProjectList = [
   {
@@ -75,26 +74,18 @@ export const ProjectList = [
     github: "https://github.com/Okkar25/ToDo-List-React",
     demo: "https://to-do-list-react-neon.vercel.app/",
   },
+
   {
     id: 8,
-    name: "Invoice App React",
-    image: InvoiceReact,
-    skills: "React, JavaScript, TailwindCSS, Flowbite",
-    github: "https://github.com/Okkar25/Invoice-App-React?tab=readme-ov-file",
-    demo: "https://invoice-app-react-tailwind.netlify.app/",
+    name: "Course CRUD App (JSON Server)",
+    image: CourseApp,
+    skills: "ReactJS, JavaScript, TailwindCSS, Flowbite",
+    github: "https://github.com/Okkar25/Course-App-JSON-Server-CRUD",
+    demo: "https://course-app-json-crud.netlify.app/",
   },
 
   {
     id: 9,
-    name: "Phone Contact App (JSON Server CRUD) ",
-    image: PhoneContact,
-    skills: "JavaScript, JSON Server, TailwindCSS",
-    github: "https://github.com/Okkar25/Phone-Contact-App-with-JSON-Server",
-    demo: "https://fancy-frangollo-b90d74.netlify.app/",
-  },
-
-  {
-    id: 10,
     name: "E-Commerce-Dom",
     image: EcomDom,
     skills: "CSS, Vanilla JavaScript, BootStrap",
@@ -103,7 +94,7 @@ export const ProjectList = [
   },
 
   {
-    id: 11,
+    id: 10,
     name: "Tailwind Home Rent Template",
     image: TailHome,
     skills: "HTML, CSS, TailwindCSS",
@@ -112,7 +103,7 @@ export const ProjectList = [
   },
 
   {
-    id: 12,
+    id: 11,
     name: "Phone Features",
     image: PhoneFeat,
     skills: "HTML, CSS, Vanilla JavaScript",
@@ -121,7 +112,7 @@ export const ProjectList = [
   },
 
   {
-    id: 13,
+    id: 12,
     name: "Invoice App",
     image: Invoice,
     skills: "CSS, BootStrap, Vanilla JavaScript",
@@ -129,7 +120,7 @@ export const ProjectList = [
     demo: "https://applestore-invoice-app.netlify.app/",
   },
   {
-    id: 14,
+    id: 13,
     name: "YouTube Clone UI",
     image: YouTube,
     skills: "HTML, CSS",
@@ -137,7 +128,7 @@ export const ProjectList = [
     demo: "https://you-tube-clone-novak.netlify.app/",
   },
   {
-    id: 15,
+    id: 14,
     name: "Functional Piano",
     image: Piano,
     skills: "HTML, CSS, Vanilla JavaScript",
@@ -145,7 +136,7 @@ export const ProjectList = [
     demo: "https://regal-unicorn-7dfdb0.netlify.app/",
   },
   {
-    id: 16,
+    id: 15,
     name: "Running Car Animation",
     image: Car,
     skills: "HTML, CSS",
