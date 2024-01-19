@@ -51,8 +51,8 @@ const Home = () => {
           <li className="item">
             <h2>Front-End</h2>
             <span>
-              HTML, CSS, Bootstrap, SCSS, TailwindCSS, MaterialUI, Styled Components, ReactJS,
-              Redux ToolKit, NextJS, NextAuth
+              HTML, CSS, Bootstrap, SCSS, TailwindCSS, MaterialUI, Styled
+              Components, ReactJS, Redux ToolKit, NextJS, NextAuth
             </span>
           </li>
 
@@ -66,7 +66,7 @@ const Home = () => {
 
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, TypeScript, PHP, C, C++</span>
+            <span>JavaScript, TypeScript, C, C++</span>
           </li>
         </ol>
       </div>

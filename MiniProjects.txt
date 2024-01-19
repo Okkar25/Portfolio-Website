@@ -1,0 +1,44 @@
+  {
+    id: 13,
+    name: "YouTube Clone UI",
+    image: YouTube,
+    skills: "HTML, CSS",
+    github: "https://github.com/Okkar25/YouTube-Replica",
+    demo: "https://you-tube-clone-novak.netlify.app/",
+  },
+
+  {
+    id: 14,
+    name: "Functional Piano",
+    image: Piano,
+    skills: "HTML, CSS, Vanilla JavaScript",
+    github: "https://github.com/Okkar25/Piano",
+    demo: "https://regal-unicorn-7dfdb0.netlify.app/",
+  },
+
+  {
+    id: 15,
+    name: "Running Car Animation",
+    image: Car,
+    skills: "HTML, CSS",
+    github: "https://github.com/Okkar25/Running-Car-Animation",
+    demo: "https://inspiring-hamster-d57618.netlify.app/",
+  },
+
+    {
+    id: 11,
+    name: "Phone Features",
+    image: PhoneFeat,
+    skills: "HTML, CSS, Vanilla JavaScript",
+    github: "https://github.com/Okkar25/Mobile-Feature-Display",
+    demo: "https://frolicking-khapse-6a989c.netlify.app/",
+  },
+
+    {
+    id: 10,
+    name: "Tailwind Home Rent Template",
+    image: TailHome,
+    skills: "HTML, CSS, TailwindCSS",
+    github: "https://github.com/Okkar25/Tailwind-Rental-Home-Template",
+    demo: "https://dashing-beignet-bda05b.netlify.app/",
+  },
