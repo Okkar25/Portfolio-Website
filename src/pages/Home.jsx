@@ -60,7 +60,7 @@ const Home = () => {
             <h2>Back-End</h2>
             <span>
               NodeJS, ExpressJS, PostgreSQL, MongoDB, Prisma, SQL, Firebase,
-              NPM, YARN, Google Developer Tools
+              Google Developer Tools, NPM, YARN
             </span>
           </li>
 
