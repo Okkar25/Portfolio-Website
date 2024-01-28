@@ -51,7 +51,7 @@ const Home = () => {
           <li className="item">
             <h2>Front-End</h2>
             <span>
-              HTML, CSS, Bootstrap, SCSS, TailwindCSS, MaterialUI, Styled
+              HTML, CSS, Bootstrap, SASS, SCSS, TailwindCSS, MaterialUI, Styled
               Components, ReactJS, Redux ToolKit, NextJS, NextAuth
             </span>
           </li>
@@ -60,7 +60,7 @@ const Home = () => {
             <h2>Back-End</h2>
             <span>
               NodeJS, ExpressJS, PostgreSQL, MongoDB, Prisma, SQL, Firebase,
-              Google Developer Tools, NPM, YARN
+              RESTful APIs, Git, NPM, YARN
             </span>
           </li>
 
