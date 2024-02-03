@@ -8,6 +8,7 @@ import Portfolio from "../assets/portfolio1.png";
 import Spotify from "../assets/spotify2.png";
 import ToDo from "../assets/todo2.png";
 import Weather from "../assets/weather1.png";
+import vapeEcom from "../assets/vapeEcom2.png";
 
 export const ProjectList = [
   {
@@ -43,8 +44,18 @@ export const ProjectList = [
     github: "https://github.com/Okkar25/Weather-App",
     demo: "https://weather-forecast-app-gradiant.vercel.app/",
   },
+
   {
     id: 5,
+    name: "Vape Store Landing Page",
+    image: vapeEcom,
+    skills: "ReactJS, TailwindCSS, React Slick Carousel, Flowbite ",
+    github: "https://github.com/Okkar25/Vape-Ecommerce-Landing-Page",
+    demo: "https://smoke-vape-maze-ecommerce-okkar-aung.vercel.app/",
+  },
+
+  {
+    id: 6,
     name: "Food Order App",
     image: FoodOrder,
     skills: "NextJS, TypeScript, MUI, Prisma, Postgresql, Redux Toolkit",
@@ -53,7 +64,7 @@ export const ProjectList = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: "Portfolio Website",
     image: Portfolio,
     skills: "ReactJS, JavaScript, CSS",
@@ -62,7 +73,7 @@ export const ProjectList = [
   },
 
   {
-    id: 7,
+    id: 8,
     name: "ToDo List",
     image: ToDo,
     skills: "ReactJS, TailwindCSS, JavaScript",
@@ -71,7 +82,7 @@ export const ProjectList = [
   },
 
   {
-    id: 8,
+    id: 9,
     name: "Course Manage App (JSON Server CRUD)",
     image: CourseApp,
     skills: "ReactJS, JavaScript, TailwindCSS, Flowbite",
@@ -80,7 +91,7 @@ export const ProjectList = [
   },
 
   {
-    id: 9,
+    id: 10,
     name: "E-Commerce-Dom",
     image: EcomDom,
     skills: "CSS, Vanilla JavaScript, BootStrap, SCSS",
@@ -89,7 +100,7 @@ export const ProjectList = [
   },
 
   {
-    id: 10,
+    id: 11,
     name: "Invoice App",
     image: Invoice,
     skills: "CSS, BootStrap, SCSS, Vanilla JavaScript",
