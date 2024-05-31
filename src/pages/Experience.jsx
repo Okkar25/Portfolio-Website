@@ -111,14 +111,15 @@ const Experience = () => {
         {/* Developer */}
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2023 - Present"
+          date="2023 - 2024"
           iconStyle={{ background: "#0077b6", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Front-End Developer
           </h3>
-          <p className="expTitle">"Open to Work"</p>
+
+          <p className="expTitle">"Freelancer"</p>
           <p className="expLabel">
             &#128313; Skilled in HTML, CSS, Bootstrap, SCSS, TailwindCSS, MUI
             and appropriate understanding of JavaScript / TypeScript along with
@@ -133,6 +134,50 @@ const Experience = () => {
           <p className="expLabel">
             &#128313; Committed to producing high-quality work in time to meet
             deadlines, continuously improving skills and welcoming feedbacks.
+          </p>
+        </VerticalTimelineElement>
+
+        {/* Jr Frontend Developer - ShopDoora */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="Feb 2024 - April 2024"
+          iconStyle={{ background: "#0077b6", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            ShopDoora ( Myanmar High Society )
+          </h3>
+          <p className="expTitle">Junior Front-End Developer</p>
+          <p className="expLabel">
+            &#128313; Develop and maintain user interfaces for web applications
+            using ReactJS and NextJS. Write reusable, modular and efficient
+            React components.
+          </p>
+          <p className="expLabel">
+            &#128313; Collaborate with designers, backend developers and quality
+            assurance teams to implement UI/UX designs and features. Integrate
+            frontend components with backend services and APIs.
+          </p>
+
+          <p className="expLabel">
+            &#128313; Implement state management solutions using libraries like
+            Redux and Context API. Ensure the responsiveness of performance of
+            applications across various devices and browsers.
+          </p>
+
+          <p className="expLabel">
+            &#128313; Work closely with project managers and stakeholders to
+            understand project requirements and timelines. Assist in the design
+            and implementation of application architecture and technical
+            solutions.
+          </p>
+
+          <p className="expTitle projects">Projects involved</p>
+          <p className="expLabel sub-project">
+            &#128313; Connect App ( Buyer and Seller App )
+          </p>
+          <p className="expLabel sub-project">
+            &#128313; The Market / Flawless Thadar ( Ecommerce Apps )
           </p>
         </VerticalTimelineElement>
 
