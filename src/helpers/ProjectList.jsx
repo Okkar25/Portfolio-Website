@@ -1,4 +1,6 @@
 import CourseApp from "../assets/CourseApp.png";
+import DevJobs from "../assets/DevJobs1.png";
+import OpenAI from "../assets/OpenAI_Keyword.png";
 import CodePen from "../assets/codepen2.png";
 import MiniEcom from "../assets/ecom1.png";
 import EcomDom from "../assets/ecomdom.png";
@@ -7,9 +9,8 @@ import Invoice from "../assets/invoicedom.png";
 import Portfolio from "../assets/portfolio1.png";
 import Spotify from "../assets/spotify2.png";
 import ToDo from "../assets/todo2.png";
-import Weather from "../assets/weather1.png";
 import vapeEcom from "../assets/vapeEcom2.png";
-import DevJobs from "../assets/DevJobs1.png"
+import Weather from "../assets/weather1.png";
 
 export const ProjectList = [
   {
@@ -33,8 +34,7 @@ export const ProjectList = [
     id: 3,
     name: "Dev Jobs",
     image: DevJobs,
-    skills:
-      "ReactJS, JavaScript, Tailwind, Redux Toolkit, Axios, Vite",
+    skills: "ReactJS, JavaScript, Tailwind, Redux Toolkit, Axios, Vite",
     github: "https://github.com/Okkar25/Dev-Jobs",
     demo: "",
   },
@@ -68,6 +68,15 @@ export const ProjectList = [
 
   {
     id: 7,
+    name: "OpenAI Keyword Extractor",
+    image: OpenAI,
+    skills: "ReactJS, Chakra UI, Open AI API, Vite, Framer Motion",
+    github: "https://github.com/Okkar25/OpenAI-Keyword-Extractor",
+    demo: "https://openai-keyword-extrractor.netlify.app/",
+  },
+
+  {
+    id: 8,
     name: "Vape Store Landing Page",
     image: vapeEcom,
     skills: "ReactJS, TailwindCSS, React Slick Carousel, Flowbite ",
@@ -76,7 +85,7 @@ export const ProjectList = [
   },
 
   {
-    id: 8,
+    id: 9,
     name: "Portfolio Website",
     image: Portfolio,
     skills: "ReactJS, JavaScript, CSS",
@@ -85,7 +94,7 @@ export const ProjectList = [
   },
 
   {
-    id: 9,
+    id: 10,
     name: "ToDo List",
     image: ToDo,
     skills: "ReactJS, TailwindCSS, JavaScript",
@@ -94,7 +103,7 @@ export const ProjectList = [
   },
 
   {
-    id: 10,
+    id: 11,
     name: "Course Manage App (JSON Server CRUD)",
     image: CourseApp,
     skills: "ReactJS, JavaScript, TailwindCSS, Flowbite",
@@ -103,7 +112,7 @@ export const ProjectList = [
   },
 
   {
-    id: 11,
+    id: 12,
     name: "E-Commerce-Dom",
     image: EcomDom,
     skills: "CSS, Vanilla JavaScript, BootStrap, SCSS",
@@ -112,7 +121,7 @@ export const ProjectList = [
   },
 
   {
-    id: 12,
+    id: 13,
     name: "Invoice App",
     image: Invoice,
     skills: "CSS, BootStrap, SCSS, Vanilla JavaScript",
