@@ -6,6 +6,7 @@ import MiniEcom from "../assets/ecom1.png";
 import EcomDom from "../assets/ecomdom.png";
 import FoodOrder from "../assets/food1.png";
 import Invoice from "../assets/invoicedom.png";
+import Planner from "../assets/palette-planner.png";
 import Portfolio from "../assets/portfolio1.png";
 import Spotify from "../assets/spotify2.png";
 import ToDo from "../assets/todo2.png";
@@ -77,6 +78,15 @@ export const ProjectList = [
 
   {
     id: 8,
+    name: "Palette Planner",
+    image: Planner,
+    skills: "ReactJS, TailwindCSS, JavaScript, Bootstrap Icons, uuid",
+    github: "https://github.com/Okkar25/Palette-Planner",
+    demo: "https://palette-planner-novak.netlify.app/",
+  },
+
+  {
+    id: 9,
     name: "Vape Store Landing Page",
     image: vapeEcom,
     skills: "ReactJS, TailwindCSS, React Slick Carousel, Flowbite ",
@@ -85,7 +95,7 @@ export const ProjectList = [
   },
 
   {
-    id: 9,
+    id: 10,
     name: "Portfolio Website",
     image: Portfolio,
     skills: "ReactJS, JavaScript, CSS",
@@ -94,7 +104,7 @@ export const ProjectList = [
   },
 
   {
-    id: 10,
+    id: 11,
     name: "ToDo List",
     image: ToDo,
     skills: "ReactJS, TailwindCSS, JavaScript",
@@ -103,7 +113,7 @@ export const ProjectList = [
   },
 
   {
-    id: 11,
+    id: 12,
     name: "Course Manage App (JSON Server CRUD)",
     image: CourseApp,
     skills: "ReactJS, JavaScript, TailwindCSS, Flowbite",
@@ -112,7 +122,7 @@ export const ProjectList = [
   },
 
   {
-    id: 12,
+    id: 13,
     name: "E-Commerce-Dom",
     image: EcomDom,
     skills: "CSS, Vanilla JavaScript, BootStrap, SCSS",
@@ -121,7 +131,7 @@ export const ProjectList = [
   },
 
   {
-    id: 13,
+    id: 14,
     name: "Invoice App",
     image: Invoice,
     skills: "CSS, BootStrap, SCSS, Vanilla JavaScript",
