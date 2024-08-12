@@ -1,9 +1,9 @@
-import CourseApp from "../assets/CourseApp.png";
 import DevJobs from "../assets/DevJobs1.png";
 import OpenAI from "../assets/OpenAI_Keyword.png";
 import CodePen from "../assets/codepen2.png";
 import MiniEcom from "../assets/ecom1.png";
 import EcomDom from "../assets/ecomdom.png";
+import FlappyBird from "../assets/flappy-bird.png";
 import FoodOrder from "../assets/food1.png";
 import Invoice from "../assets/invoicedom.png";
 import Planner from "../assets/palette-planner.png";
@@ -69,6 +69,15 @@ export const ProjectList = [
 
   {
     id: 7,
+    name: "Flappy Bird",
+    image: FlappyBird,
+    skills: "JavaScript, Kaboom.js",
+    github: "https://github.com/Okkar25/Flappy_Bird_Kaboom",
+    demo: "https://flappy-bird-novak.netlify.app/",
+  },
+
+  {
+    id: 8,
     name: "OpenAI Keyword Extractor",
     image: OpenAI,
     skills: "ReactJS, Chakra UI, Open AI API, Vite, Framer Motion",
@@ -77,7 +86,7 @@ export const ProjectList = [
   },
 
   {
-    id: 8,
+    id: 9,
     name: "Palette Planner",
     image: Planner,
     skills: "ReactJS, TailwindCSS, JavaScript, Bootstrap Icons, uuid",
@@ -86,7 +95,7 @@ export const ProjectList = [
   },
 
   {
-    id: 9,
+    id: 10,
     name: "Vape Store Landing Page",
     image: vapeEcom,
     skills: "ReactJS, TailwindCSS, React Slick Carousel, Flowbite ",
@@ -95,7 +104,7 @@ export const ProjectList = [
   },
 
   {
-    id: 10,
+    id: 11,
     name: "Portfolio Website",
     image: Portfolio,
     skills: "ReactJS, JavaScript, CSS",
@@ -104,21 +113,12 @@ export const ProjectList = [
   },
 
   {
-    id: 11,
+    id: 12,
     name: "ToDo List",
     image: ToDo,
     skills: "ReactJS, TailwindCSS, JavaScript",
     github: "https://github.com/Okkar25/ToDo-List-React",
     demo: "https://to-do-list-react-neon.vercel.app/",
-  },
-
-  {
-    id: 12,
-    name: "Course Manage App (JSON Server CRUD)",
-    image: CourseApp,
-    skills: "ReactJS, JavaScript, TailwindCSS, Flowbite",
-    github: "https://github.com/Okkar25/Course-App-JSON-Server-CRUD",
-    demo: "https://course-app-json-crud.netlify.app/",
   },
 
   {
