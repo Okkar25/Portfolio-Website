@@ -1,5 +1,6 @@
 import DevJobs from "../assets/DevJobs1.png";
 import OpenAI from "../assets/OpenAI_Keyword.png";
+import TimeConverter from "../assets/TimeConverter2.png";
 import CodePen from "../assets/codepen2.png";
 import MiniEcom from "../assets/ecom1.png";
 import EcomDom from "../assets/ecomdom.png";
@@ -96,6 +97,16 @@ export const ProjectList = [
 
   {
     id: 10,
+    name: "Date - Time Converter",
+    image: TimeConverter,
+    skills:
+      "ReactJS, TailwindCSS, Flowbite, Flowbite - DatePicker / TimePicker ",
+    github: "https://github.com/Okkar25/YGN-to-Chicago-Time-Converter",
+    demo: "https://ygn-chicago-time-converter.netlify.app/",
+  },
+
+  {
+    id: 11,
     name: "Vape Store Landing Page",
     image: vapeEcom,
     skills: "ReactJS, TailwindCSS, React Slick Carousel, Flowbite ",
@@ -104,7 +115,7 @@ export const ProjectList = [
   },
 
   {
-    id: 11,
+    id: 12,
     name: "Portfolio Website",
     image: Portfolio,
     skills: "ReactJS, JavaScript, CSS",
@@ -113,7 +124,7 @@ export const ProjectList = [
   },
 
   {
-    id: 12,
+    id: 13,
     name: "ToDo List",
     image: ToDo,
     skills: "ReactJS, TailwindCSS, JavaScript",
@@ -122,7 +133,7 @@ export const ProjectList = [
   },
 
   {
-    id: 13,
+    id: 14,
     name: "E-Commerce-Dom",
     image: EcomDom,
     skills: "CSS, Vanilla JavaScript, BootStrap, SCSS",
@@ -131,7 +142,7 @@ export const ProjectList = [
   },
 
   {
-    id: 14,
+    id: 15,
     name: "Invoice App",
     image: Invoice,
     skills: "CSS, BootStrap, SCSS, Vanilla JavaScript",

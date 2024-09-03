@@ -1,13 +1,18 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
-import React from "react";
-import { useParams } from "react-router-dom";
+import React, { useEffect } from "react";
+import { useLocation, useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import "../styles/ProjectDisplay.css";
 
 const ProjectDisplay = () => {
   const { id } = useParams();
   const project = ProjectList[id];
+  const { pathname } = useLocation();
   //   const project = ProjectList.map((list) => list.id === id);
+
+  useEffect(() => {
+    window.scrollTo(0, 100);
+  }, [id, pathname]);
 
   return (
     <div className="project">
