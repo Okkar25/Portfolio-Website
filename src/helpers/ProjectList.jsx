@@ -5,6 +5,7 @@ import CodePen from "../assets/codepen2.png";
 import MiniEcom from "../assets/ecom1.png";
 import EcomDom from "../assets/ecomdom.png";
 import FlappyBird from "../assets/flappy-bird.png";
+import Weather_Flask from "../assets/flask_weather2.png";
 import FoodOrder from "../assets/food1.png";
 import Invoice from "../assets/invoicedom.png";
 import Planner from "../assets/palette-planner.png";
@@ -79,6 +80,16 @@ export const ProjectList = [
 
   {
     id: 8,
+    name: "Weather App with Flask",
+    image: Weather_Flask,
+    skills:
+      "Python, Flask, OpenWeatherMap API, Waitress, requests, python-dotenv",
+    github: "https://github.com/Okkar25/Weather-App-with-Flask",
+    demo: "https://weather-app-with-flask-q9e5.onrender.com/",
+  },
+
+  {
+    id: 9,
     name: "OpenAI Keyword Extractor",
     image: OpenAI,
     skills: "ReactJS, Chakra UI, Open AI API, Vite, Framer Motion",
@@ -87,7 +98,7 @@ export const ProjectList = [
   },
 
   {
-    id: 9,
+    id: 10,
     name: "Palette Planner",
     image: Planner,
     skills: "ReactJS, TailwindCSS, JavaScript, Bootstrap Icons, uuid",
@@ -96,7 +107,7 @@ export const ProjectList = [
   },
 
   {
-    id: 10,
+    id: 11,
     name: "Date - Time Converter",
     image: TimeConverter,
     skills:
@@ -106,7 +117,7 @@ export const ProjectList = [
   },
 
   {
-    id: 11,
+    id: 12,
     name: "Vape Store Landing Page",
     image: vapeEcom,
     skills: "ReactJS, TailwindCSS, React Slick Carousel, Flowbite ",
@@ -115,7 +126,7 @@ export const ProjectList = [
   },
 
   {
-    id: 12,
+    id: 13,
     name: "Portfolio Website",
     image: Portfolio,
     skills: "ReactJS, JavaScript, CSS",
@@ -124,7 +135,7 @@ export const ProjectList = [
   },
 
   {
-    id: 13,
+    id: 14,
     name: "ToDo List",
     image: ToDo,
     skills: "ReactJS, TailwindCSS, JavaScript",
@@ -133,7 +144,7 @@ export const ProjectList = [
   },
 
   {
-    id: 14,
+    id: 15,
     name: "E-Commerce-Dom",
     image: EcomDom,
     skills: "CSS, Vanilla JavaScript, BootStrap, SCSS",
@@ -142,7 +153,7 @@ export const ProjectList = [
   },
 
   {
-    id: 15,
+    id: 16,
     name: "Invoice App",
     image: Invoice,
     skills: "CSS, BootStrap, SCSS, Vanilla JavaScript",
