@@ -14,6 +14,8 @@ import shadcnui from "../assets/frontend/shadcnui.svg";
 import styledcomponents from "../assets/frontend/styledcomponents.svg";
 import tailwind from "../assets/frontend/tailwindcss.svg";
 import zod from "../assets/frontend/zod.svg";
+import framer from "../assets/frontend/framer.svg";
+import graphql from "../assets/frontend/graphql.svg";
 
 // backend icons
 import docker from "../assets/backend/docker.svg";
@@ -270,5 +272,15 @@ export const frontendTech = [
     id: 15,
     name: "Google Authenticator",
     img: googleauthenticator,
+  },
+  {
+    id: 16,
+    name: "GraphQL",
+    img: graphql,
+  },
+  {
+    id: 17,
+    name: "Framer Motion",
+    img: framer,
   },
 ];
