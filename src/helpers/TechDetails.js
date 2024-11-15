@@ -1,23 +1,31 @@
 // frontend icons
+import antdesign from "../assets/frontend/antdesign.svg";
+import babel from "../assets/frontend/babel.svg";
 import bootstrap from "../assets/frontend/bootstrap.svg";
+import chakraui from "../assets/frontend/chakraui.svg";
 import clerk from "../assets/frontend/clerk.svg";
 import css from "../assets/frontend/css3.svg";
+import framer from "../assets/frontend/framer.svg";
 import googleauthenticator from "../assets/frontend/googleauthenticator.svg";
+import graphql from "../assets/frontend/graphql.svg";
 import html from "../assets/frontend/html5.svg";
+import jest from "../assets/frontend/jest.svg";
 import mui from "../assets/frontend/mui.svg";
 import nextdotjs from "../assets/frontend/nextdotjs.svg";
 import react from "../assets/frontend/react.svg";
 import reactquery from "../assets/frontend/reactquery.svg";
+import reactrouter from "../assets/frontend/reactrouter.svg";
 import redux from "../assets/frontend/redux.svg";
 import sass from "../assets/frontend/sass.svg";
 import shadcnui from "../assets/frontend/shadcnui.svg";
 import styledcomponents from "../assets/frontend/styledcomponents.svg";
 import tailwind from "../assets/frontend/tailwindcss.svg";
+import vite from "../assets/frontend/vite.svg";
+import webpack from "../assets/frontend/webpack.svg";
 import zod from "../assets/frontend/zod.svg";
-import framer from "../assets/frontend/framer.svg";
-import graphql from "../assets/frontend/graphql.svg";
 
 // backend icons
+import django from "../assets/backend/django.svg";
 import docker from "../assets/backend/docker.svg";
 import drizzle from "../assets/backend/drizzle.svg";
 import express from "../assets/backend/express.svg";
@@ -25,6 +33,7 @@ import firebase from "../assets/backend/firebase.svg";
 import flask from "../assets/backend/flask.svg";
 import git from "../assets/backend/git.svg";
 import github from "../assets/backend/github.svg";
+import jinja from "../assets/backend/jinja.svg";
 import mongodb from "../assets/backend/mongodb.svg";
 import mongoose from "../assets/backend/mongoose.svg";
 import mysql from "../assets/backend/mysql.svg";
@@ -39,43 +48,48 @@ import sql from "../assets/backend/sellfy.svg";
 import sqlalchemy from "../assets/backend/sqlalchemy.svg";
 import sqlite from "../assets/backend/sqlite.svg";
 import yarn from "../assets/backend/yarn.svg";
-import django from "../assets/backend/django.svg";
-import jinja from "../assets/backend/jinja.svg";
 
-// languages 
-import javascript from "../assets/languages/javascript.svg";
-import typescript from "../assets/languages/typescript.svg";
-import python from "../assets/languages/python.svg";
+// languages
 import c from "../assets/languages/c.svg";
 import cplusplus from "../assets/languages/cplusplus.svg";
+import javascript from "../assets/languages/javascript.svg";
+import python from "../assets/languages/python.svg";
+import typescript from "../assets/languages/typescript.svg";
+
+// Tools
+import jupyter from "../assets/tools/jupyter.svg";
+import netlify from "../assets/tools/netlify.svg";
+import notion from "../assets/tools/notion.svg";
+import render from "../assets/tools/render.svg";
+import vercel from "../assets/tools/vercel.svg";
 
 export const languages = [
-    {
-        id: 1,
-        name: "JavaScript",
-        img: javascript,
-      },
-      {
-        id: 2,
-        name: "TypeScript",
-        img: typescript,
-      },
-      {
-        id: 3,
-        name: "Python",
-        img: python,
-      },
-      {
-        id: 4,
-        name: "C",
-        img: c,
-      },
-      {
-        id: 5,
-        name: "C++",
-        img: cplusplus,
-      },
-]
+  {
+    id: 1,
+    name: "JavaScript",
+    img: javascript,
+  },
+  {
+    id: 2,
+    name: "TypeScript",
+    img: typescript,
+  },
+  {
+    id: 3,
+    name: "Python",
+    img: python,
+  },
+  {
+    id: 4,
+    name: "C",
+    img: c,
+  },
+  {
+    id: 5,
+    name: "C++",
+    img: cplusplus,
+  },
+];
 
 export const backendTech = [
   {
@@ -164,36 +178,6 @@ export const backendTech = [
     name: "Docker",
     img: docker,
   },
-  {
-    id: 16,
-    name: "Postman",
-    img: postman,
-  },
-  {
-    id: 17,
-    name: "Git",
-    img: git,
-  },
-  {
-    id: 18,
-    name: "GitHub",
-    img: github,
-  },
-  {
-    id: 19,
-    name: "NPM",
-    img: npm,
-  },
-  {
-    id: 20,
-    name: "PNPM",
-    img: pnpm,
-  },
-  {
-    id: 21,
-    name: "YARN",
-    img: yarn,
-  },
 ];
 
 export const frontendTech = [
@@ -268,19 +252,115 @@ export const frontendTech = [
     name: "Clerk",
     img: clerk,
   },
+
   {
     id: 15,
-    name: "Google Authenticator",
-    img: googleauthenticator,
-  },
-  {
-    id: 16,
     name: "GraphQL",
     img: graphql,
   },
   {
-    id: 17,
+    id: 16,
     name: "Framer Motion",
     img: framer,
+  },
+  {
+    id: 17,
+    name: "React Router",
+    img: reactrouter,
+  },
+
+  {
+    id: 18,
+    name: "Ant Design",
+    img: antdesign,
+  },
+  {
+    id: 19,
+    name: "Chakra UI",
+    img: chakraui,
+  },
+  {
+    id: 20,
+    name: "Web Pack",
+    img: webpack,
+  },
+  {
+    id: 21,
+    name: "Babel",
+    img: babel,
+  },
+  {
+    id: 22,
+    name: "Jest",
+    img: jest,
+  },
+];
+
+export const devTools = [
+  {
+    id: 1,
+    name: "Postman",
+    img: postman,
+  },
+  {
+    id: 2,
+    name: "Git",
+    img: git,
+  },
+  {
+    id: 3,
+    name: "GitHub",
+    img: github,
+  },
+  {
+    id: 4,
+    name: "NPM",
+    img: npm,
+  },
+  {
+    id: 5,
+    name: "PNPM",
+    img: pnpm,
+  },
+  {
+    id: 6,
+    name: "YARN",
+    img: yarn,
+  },
+  {
+    id: 7,
+    name: "Vite",
+    img: vite,
+  },
+  {
+    id: 8,
+    name: "Google Authenticator",
+    img: googleauthenticator,
+  },
+
+  {
+    id: 8,
+    name: "Vercel",
+    img: vercel,
+  },
+  {
+    id: 8,
+    name: "Netlify",
+    img: netlify,
+  },
+  {
+    id: 8,
+    name: "Render",
+    img: render,
+  },
+  {
+    id: 8,
+    name: "Notion",
+    img: notion,
+  },
+  {
+    id: 8,
+    name: "Jupyter Notebook",
+    img: jupyter,
   },
 ];

@@ -3,7 +3,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import React from "react";
 import TechCard from "../components/TechCard";
-import { backendTech, frontendTech, languages } from "../helpers/TechDetails";
+import { backendTech, devTools, frontendTech, languages } from "../helpers/TechDetails";
 import "../styles/Home.css";
 
 const Home = () => {
@@ -66,6 +66,17 @@ const Home = () => {
             <span>
               <div className="techCard" id="">
                 {backendTech.map((el) => (
+                  <TechCard {...el} key={el.id} />
+                ))}
+              </div>
+            </span>
+          </li>
+
+          <li className="item">
+            <h2>Tools</h2>
+            <span>
+              <div className="techCard" id="">
+                {devTools.map((el) => (
                   <TechCard {...el} key={el.id} />
                 ))}
               </div>
