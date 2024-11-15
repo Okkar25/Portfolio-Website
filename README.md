@@ -1,8 +1,43 @@
+# Portfolio Website
+
+Welcome to my portfolio website repository! This project highlights my professional journey, projects, and technical expertise through a modern and responsive interface.
+
+## Features
+
+- **Responsive Design:** Optimized for all devices (desktop, tablet, mobile).
+- **Interactive Navigation:** Smooth scrolling and dynamic page transitions.
+- **Modern Technologies:**
+  - **Frontend:** HTML, CSS, JavaScript.
+  - **Styling Tools:** Tailwind CSS, Bootstrap.
+  - **Backend:** Flask (Python), SQLite.
+
+## Project Structure
+
+- **`index.html`:** Main landing page with sections for About, Projects, and Contact.
+- **`css/`:** Custom stylesheets for the website's design and responsiveness.
+- **`js/`:** JavaScript for interactive functionality.
+- **`img/`:** Image assets for branding and media content.
+- **`data/`:** JSON files for dynamic content.
+
+## Getting Started
+
+### Prerequisites
+
+- A web browser like Chrome or Firefox.
+- Python and Flask (for running the backend locally).
+- SQLite Viewer (for managing the database).
+
+
 # Tech Stacks
 
 - ReactJS
-- JavaScriptt
+- JavaScript
 - CSS
+- MUI
+- React Router
+- React Vertical Timeline Component
+- Vite
+- Tailwind
 
 ## Demo - https://portfolio-okkar-aung.vercel.app/
 
