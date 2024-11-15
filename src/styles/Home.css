@@ -124,3 +124,80 @@
     font-size: 15px;
   }
 }
+
+.techCard {
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px 70px 70px 70px;
+  gap: 60px;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardInfo img {
+  width: 70px;
+}
+
+.cardInfo p {
+  text-align: center;
+}
+
+/* tablet */
+@media only screen and (max-width: 900px) {
+  .techCard {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px 70px;
+    gap: 30px;
+    justify-content: center;
+    /* padding: 0px 10px 0px 20px; */
+    /* background-color: red; */
+  }
+
+  .cardInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cardInfo img {
+    width: 60px;
+  }
+
+  .cardInfo p {
+    font-size: 15px;
+  }
+}
+
+/* phone */
+@media only screen and (max-width: 600px) {
+  .techCard {
+    display: grid;
+    grid-template-columns: 70px 70px 70px;
+    gap: 30px;
+    justify-content: center;
+    /* padding: 0px 10px 0px 20px; */
+    /* background-color: red; */
+  }
+
+  .cardInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cardInfo img {
+    width: 50px;
+  }
+
+  .cardInfo p {
+    font-size: 15px;
+  }
+}

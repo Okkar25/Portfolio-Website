@@ -2,6 +2,8 @@ import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import React from "react";
+import TechCard from "../components/TechCard";
+import { backendTech, frontendTech, languages } from "../helpers/TechDetails";
 import "../styles/Home.css";
 
 const Home = () => {
@@ -12,8 +14,8 @@ const Home = () => {
 
         <div className="prompt">
           <p>
-            A Front-End Software Developer passionate about creating responsive
-            web designs and user-friendly web experiences.
+            A Full-Stack Software Developer passionate about creating responsive
+            web designs, user-friendly web experiences and API Development.
           </p>
 
           <div className="hero-icons">
@@ -51,22 +53,34 @@ const Home = () => {
           <li className="item">
             <h2>Front-End</h2>
             <span>
-              HTML, CSS, Bootstrap, SASS, SCSS, TailwindCSS, MaterialUI, Styled
-              Components, ReactJS, Redux ToolKit, NextJS, NextAuth
+              <div className="techCard" id="">
+                {frontendTech.map((el) => (
+                  <TechCard {...el} key={el.id} />
+                ))}
+              </div>
             </span>
           </li>
 
           <li className="item">
-            <h2>Back-End</h2>
+            <h2>Backend-End</h2>
             <span>
-              NodeJS, ExpressJS, PostgreSQL, MongoDB, Prisma, SQL, Firebase,
-              RESTful APIs, Git, NPM, YARN
+              <div className="techCard" id="">
+                {backendTech.map((el) => (
+                  <TechCard {...el} key={el.id} />
+                ))}
+              </div>
             </span>
           </li>
 
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, TypeScript, C, C++</span>
+            <span>
+              <div className="techCard" id="">
+                {languages.map((el) => (
+                  <TechCard {...el} key={el.id} />
+                ))}
+              </div>
+            </span>
           </li>
         </ol>
       </div>
