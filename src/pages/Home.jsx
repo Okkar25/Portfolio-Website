@@ -62,7 +62,7 @@ const Home = () => {
           </li>
 
           <li className="item">
-            <h2>Backend-End</h2>
+            <h2>Back-End</h2>
             <span>
               <div className="techCard" id="">
                 {backendTech.map((el) => (
