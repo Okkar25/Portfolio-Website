@@ -57,10 +57,11 @@ import python from "../assets/languages/python.svg";
 import typescript from "../assets/languages/typescript.svg";
 
 // Tools
-import netlify from "../assets/tools/netlify.svg";
-import notion from "../assets/tools/notion.svg";
-import render from "../assets/tools/render.svg";
-import vercel from "../assets/tools/vercel.svg";
+import netlify from "../assets/Tools/netlify.svg";
+import notion from "../assets/Tools/notion.svg";
+import render from "../assets/Tools/render.svg";
+import vercel from "../assets/Tools/vercel.svg";
+import jupyter from "../assets/Tools/jupyter.svg"
 
 export const languages = [
   {
@@ -357,9 +358,9 @@ export const devTools = [
     name: "Notion",
     img: notion,
   },
-  // {
-  //   id: 13,
-  //   name: "Jupyter Notebook",
-  //   img: jupyter,
-  // },
+  {
+    id: 13,
+    name: "Jupyter Notebook",
+    img: jupyter,
+  },
 ];
