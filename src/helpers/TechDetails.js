@@ -61,7 +61,6 @@ import netlify from "../assets/tools/netlify.svg";
 import notion from "../assets/tools/notion.svg";
 import render from "../assets/tools/render.svg";
 import vercel from "../assets/tools/vercel.svg";
-import jupyter from "../assets/Data Analytics/jupyter.svg"
 
 export const languages = [
   {
@@ -358,9 +357,9 @@ export const devTools = [
     name: "Notion",
     img: notion,
   },
-  {
-    id: 13,
-    name: "Jupyter Notebook",
-    img: jupyter,
-  },
+  // {
+  //   id: 13,
+  //   name: "Jupyter Notebook",
+  //   img: jupyter,
+  // },
 ];
