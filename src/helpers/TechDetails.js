@@ -57,11 +57,11 @@ import python from "../assets/languages/python.svg";
 import typescript from "../assets/languages/typescript.svg";
 
 // Tools
-import jupyternotebook from "../assets/tools/jupyternotebook.svg";
 import netlify from "../assets/tools/netlify.svg";
 import notion from "../assets/tools/notion.svg";
 import render from "../assets/tools/render.svg";
 import vercel from "../assets/tools/vercel.svg";
+import jupyter from "../assets/Data Analytics/jupyter.svg"
 
 export const languages = [
   {
@@ -361,6 +361,6 @@ export const devTools = [
   {
     id: 13,
     name: "Jupyter Notebook",
-    img: jupyternotebook,
+    img: jupyter,
   },
 ];
