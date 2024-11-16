@@ -37,7 +37,7 @@ const Home = () => {
               </a>
             </div>
             <a
-              href="../../Okkar_Aung_CV_2024.pdf"
+              href="../../src/assets/Okkar_Aung_CV_2024.pdf"
               download="OkkarAung_CV_2024.pdf"
             >
               <button className="cvBtn">Download CV</button>
