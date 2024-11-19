@@ -85,7 +85,7 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2022 - 2023"
-          iconStyle={{ background: "#34a0a4", color: "#fff" }}
+          iconStyle={{ background: "#05668d", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -112,7 +112,7 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2023 - 2024"
-          iconStyle={{ background: "#0077b6", color: "#fff" }}
+          iconStyle={{ background: "#7678ed", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -181,9 +181,59 @@ const Experience = () => {
           </p>
         </VerticalTimelineElement>
 
+        {/* Python Language Tutor - Freelance */}
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="Sep 2024 - Jan 2025 ( Current )"
+          iconStyle={{ background: "#4361ee", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Python Language Tutor
+          </h3>
+          <p className="expTitle">Freelancer</p>
+          <p className="expLabel">
+            &#128313; Currently tutoring a Master student majoring in medical
+            informatics at a university in Chicago, Illinois.
+          </p>
+          <p className="expLabel">
+            &#128313; Develop and structure Python programming courses based on
+            learners’ levels ( beginner, intermediate, advanced ).
+          </p>
+
+          <p className="expLabel">
+            &#128313; Create lesson plans, programming exercises and visualize
+            how the code runs behind the scenes with the help of visual
+            debuggers (pythontutor).
+          </p>
+
+          <p className="expLabel">
+            &#128313; Demonstrate key Python concepts, such as data structures,
+            OOP, modules, and libraries. Adjust curriculum and learning curve
+            based on the student’s major.
+          </p>
+
+          <p className="expLabel">
+            &#128313; Guide learners in using Python tools and libraries like
+            Flask, Django, Numpy, Pandas, Matplotlib, Seaborn, Excel, SQL, Power
+            BI and Tableau.
+          </p>
+
+          <p className="expLabel">
+            &#128313; Create quizzes, assignments, and projects to evaluate
+            students' progress.
+          </p>
+
+          <p className="expLabel">
+            &#128313; Assist students in troubleshooting coding issues and
+            debugging Python scripts. Maintain records of learners' performance
+            and progress.
+          </p>
+        </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--star"
-          iconStyle={{ background: "#7ae582", color: "#fff" }}
+          iconStyle={{ background: "#ccd5ae", color: "#fff" }}
           icon={<StarIcon />}
         />
       </VerticalTimeline>
