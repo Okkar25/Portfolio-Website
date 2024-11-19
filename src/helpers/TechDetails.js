@@ -1,17 +1,15 @@
 // frontend icons
 import antdesign from "../assets/frontend/antdesign.svg";
-import babel from "../assets/frontend/babel.svg";
 import bootstrap from "../assets/frontend/bootstrap.svg";
 import chakraui from "../assets/frontend/chakraui.svg";
-import clerk from "../assets/frontend/clerk.svg";
 import css from "../assets/frontend/css3.svg";
 import framer from "../assets/frontend/framer.svg";
-import googleauthenticator from "../assets/frontend/googleauthenticator.svg";
 import graphql from "../assets/frontend/graphql.svg";
 import html from "../assets/frontend/html5.svg";
 import jest from "../assets/frontend/jest.svg";
 import mui from "../assets/frontend/mui.svg";
 import nextdotjs from "../assets/frontend/nextdotjs.svg";
+import nextui from "../assets/frontend/nextui.svg";
 import react from "../assets/frontend/react.svg";
 import reactquery from "../assets/frontend/reactquery.svg";
 import reactrouter from "../assets/frontend/reactrouter.svg";
@@ -21,13 +19,12 @@ import shadcnui from "../assets/frontend/shadcnui.svg";
 import styledcomponents from "../assets/frontend/styledcomponents.svg";
 import tailwind from "../assets/frontend/tailwindcss.svg";
 import vite from "../assets/frontend/vite.svg";
-import webpack from "../assets/frontend/webpack.svg";
-import zod from "../assets/frontend/zod.svg";
 
 // backend icons
 import django from "../assets/backend/django.svg";
 import docker from "../assets/backend/docker.svg";
 import drizzle from "../assets/backend/drizzle.svg";
+import ejs from "../assets/backend/ejs.svg";
 import express from "../assets/backend/express.svg";
 import firebase from "../assets/backend/firebase.svg";
 import flask from "../assets/backend/flask.svg";
@@ -39,7 +36,6 @@ import mongoose from "../assets/backend/mongoose.svg";
 import mysql from "../assets/backend/mysql.svg";
 import nodejs from "../assets/backend/nodedotjs.svg";
 import npm from "../assets/backend/npm.svg";
-import pnpm from "../assets/backend/pnpm.svg";
 import postgresql from "../assets/backend/postgresql.svg";
 import postman from "../assets/backend/postman.svg";
 import prisma from "../assets/backend/prisma.svg";
@@ -47,21 +43,18 @@ import rapid from "../assets/backend/rapid.svg";
 import sql from "../assets/backend/sellfy.svg";
 import sqlalchemy from "../assets/backend/sqlalchemy.svg";
 import sqlite from "../assets/backend/sqlite.svg";
-import yarn from "../assets/backend/yarn.svg";
 
 // languages
-import c from "../assets/languages/c.svg";
-import cplusplus from "../assets/languages/cplusplus.svg";
 import javascript from "../assets/languages/javascript.svg";
 import python from "../assets/languages/python.svg";
 import typescript from "../assets/languages/typescript.svg";
 
 // Tools
+import jupyter from "../assets/Tools/jupyter.svg";
 import netlify from "../assets/Tools/netlify.svg";
 import notion from "../assets/Tools/notion.svg";
 import render from "../assets/Tools/render.svg";
 import vercel from "../assets/Tools/vercel.svg";
-import jupyter from "../assets/Tools/jupyter.svg"
 
 export const languages = [
   {
@@ -79,16 +72,6 @@ export const languages = [
     name: "Python",
     img: python,
   },
-  {
-    id: 4,
-    name: "C",
-    img: c,
-  },
-  {
-    id: 5,
-    name: "C++",
-    img: cplusplus,
-  },
 ];
 
 export const backendTech = [
@@ -104,77 +87,82 @@ export const backendTech = [
   },
   {
     id: 3,
+    name: "EJS",
+    img: ejs,
+  },
+  {
+    id: 4,
     name: "Flask",
     img: flask,
   },
   {
-    id: 4,
+    id: 5,
     name: "Django",
     img: django,
   },
   {
-    id: 5,
+    id: 6,
     name: "Jinja",
     img: jinja,
   },
   {
-    id: 6,
+    id: 7,
     name: "SQLite",
     img: sqlite,
   },
   {
-    id: 7,
+    id: 8,
     name: "SQLAlchemy",
     img: sqlalchemy,
   },
   {
-    id: 8,
+    id: 9,
     name: "PostgreSQL",
     img: postgresql,
   },
   {
-    id: 9,
+    id: 10,
     name: "MongoDB",
     img: mongodb,
   },
   {
-    id: 10,
+    id: 11,
     name: "Mongoose",
     img: mongoose,
   },
 
   {
-    id: 11,
+    id: 12,
     name: "Prisma",
     img: prisma,
   },
   {
-    id: 12,
+    id: 13,
     name: "Drizzle",
     img: drizzle,
   },
   {
-    id: 13,
+    id: 14,
     name: "MySQL",
     img: mysql,
   },
   {
-    id: 14,
+    id: 15,
     name: "SQL",
     img: sql,
   },
   {
-    id: 15,
+    id: 16,
     name: "Firebase",
     img: firebase,
   },
   {
-    id: 16,
+    id: 17,
     name: "RESTful API",
     img: rapid,
   },
   {
-    id: 17,
+    id: 18,
     name: "Docker",
     img: docker,
   },
@@ -229,68 +217,51 @@ export const frontendTech = [
   },
   {
     id: 10,
+    name: "React Router",
+    img: reactrouter,
+  },
+  {
+    id: 11,
     name: "React Query",
     img: reactquery,
   },
   {
-    id: 11,
+    id: 12,
     name: "Redux Toolkit",
     img: redux,
   },
   {
-    id: 12,
+    id: 13,
     name: "NextJS",
     img: nextdotjs,
   },
   {
-    id: 13,
-    name: "Zod",
-    img: zod,
-  },
-  {
     id: 14,
-    name: "Clerk",
-    img: clerk,
-  },
-
-  {
-    id: 15,
     name: "GraphQL",
     img: graphql,
   },
   {
-    id: 16,
+    id: 15,
     name: "Framer Motion",
     img: framer,
   },
   {
-    id: 17,
-    name: "React Router",
-    img: reactrouter,
-  },
-
-  {
-    id: 18,
+    id: 16,
     name: "Ant Design",
     img: antdesign,
   },
   {
-    id: 19,
+    id: 17,
     name: "Chakra UI",
     img: chakraui,
   },
   {
-    id: 20,
-    name: "Web Pack",
-    img: webpack,
+    id: 18,
+    name: "NextUI",
+    img: nextui,
   },
   {
-    id: 21,
-    name: "Babel",
-    img: babel,
-  },
-  {
-    id: 22,
+    id: 19,
     name: "Jest",
     img: jest,
   },
@@ -319,47 +290,31 @@ export const devTools = [
   },
   {
     id: 5,
-    name: "PNPM",
-    img: pnpm,
-  },
-  {
-    id: 6,
-    name: "YARN",
-    img: yarn,
-  },
-  {
-    id: 7,
     name: "Vite",
     img: vite,
   },
   {
-    id: 8,
-    name: "Google Authenticator",
-    img: googleauthenticator,
-  },
-
-  {
-    id: 9,
+    id: 6,
     name: "Vercel",
     img: vercel,
   },
   {
-    id: 10,
+    id: 7,
     name: "Netlify",
     img: netlify,
   },
   {
-    id: 11,
+    id: 8,
     name: "Render",
     img: render,
   },
   {
-    id: 12,
+    id: 9,
     name: "Notion",
     img: notion,
   },
   {
-    id: 13,
+    id: 10,
     name: "Jupyter Notebook",
     img: jupyter,
   },

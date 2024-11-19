@@ -112,14 +112,14 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2023 - 2024"
-          iconStyle={{ background: "#7678ed", color: "#fff" }}
+          iconStyle={{ background: "#0077b6", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Front-End Developer
           </h3>
 
-          <p className="expTitle">"Freelancer"</p>
+          <p className="expTitle">Freelance</p>
           <p className="expLabel">
             &#128313; Skilled in HTML, CSS, Bootstrap, SCSS, TailwindCSS, MUI
             and appropriate understanding of JavaScript / TypeScript along with
@@ -141,7 +141,7 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="Feb 2024 - April 2024"
-          iconStyle={{ background: "#0077b6", color: "#fff" }}
+          iconStyle={{ background: "#7678ed", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -191,7 +191,7 @@ const Experience = () => {
           <h3 className="vertical-timeline-element-title">
             Python Language Tutor
           </h3>
-          <p className="expTitle">Freelancer</p>
+          <p className="expTitle">Freelance</p>
           <p className="expLabel">
             &#128313; Currently tutoring a Master student majoring in medical
             informatics at a university in Chicago, Illinois.
