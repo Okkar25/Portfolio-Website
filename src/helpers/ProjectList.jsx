@@ -8,7 +8,7 @@ import EcomDom from "../assets/ecomdom.png";
 import FlappyBird from "../assets/flappy-bird.png";
 import Weather_Flask from "../assets/flask_weather2.png";
 import FoodOrder from "../assets/food1.png";
-import Invoice from "../assets/invoicedom.png";
+import Invoice from "../assets/invoice.png";
 import music_player from "../assets/music_player.png";
 import Planner from "../assets/palette-planner.png";
 import Portfolio from "../assets/portfolio1.png";
@@ -177,8 +177,8 @@ export const ProjectList = [
     id: 18,
     name: "Invoice App",
     image: Invoice,
-    skills: "CSS, BootStrap, SCSS, Vanilla JavaScript",
-    github: "https://github.com/Okkar25/Invoice-App-DOM",
-    demo: "https://applestore-invoice-app.netlify.app/",
+    skills: "TailwindCSS, Flowbite, React, JavaScript",
+    github: "https://github.com/Okkar25/Invoice-App-React",
+    demo: "https://invoice-app-react-tailwind.netlify.app/",
   },
 ];
