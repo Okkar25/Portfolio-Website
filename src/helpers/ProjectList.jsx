@@ -1,4 +1,5 @@
 import DevJobs from "../assets/DevJobs1.png";
+import Flask_API from "../assets/Flask_API.png";
 import OpenAI from "../assets/OpenAI_Keyword.png";
 import TimeConverter from "../assets/TimeConverter2.png";
 import CodePen from "../assets/codepen2.png";
@@ -71,11 +72,12 @@ export const ProjectList = [
 
   {
     id: 7,
-    name: "Flappy Bird",
-    image: FlappyBird,
-    skills: "JavaScript, Kaboom.js",
-    github: "https://github.com/Okkar25/Flappy_Bird_Kaboom",
-    demo: "https://flappy-bird-novak.netlify.app/",
+    name: "Flask REST API (Users)",
+    image: Flask_API,
+    skills:
+      "Python, Flask, SQLite, SQLAlchemy, Waitress, Flask-RESTful, Python-dotenv",
+    github: "https://github.com/Okkar25/Simple_CRUD_Flask_REST_API",
+    demo: "https://simple-crud-flask-rest-api.onrender.com/api/users",
   },
 
   {
@@ -90,6 +92,15 @@ export const ProjectList = [
 
   {
     id: 9,
+    name: "Flappy Bird",
+    image: FlappyBird,
+    skills: "JavaScript, Kaboom.js",
+    github: "https://github.com/Okkar25/Flappy_Bird_Kaboom",
+    demo: "https://flappy-bird-novak.netlify.app/",
+  },
+
+  {
+    id: 10,
     name: "OpenAI Keyword Extractor",
     image: OpenAI,
     skills: "ReactJS, Chakra UI, Open AI API, Vite, Framer Motion",
@@ -98,7 +109,7 @@ export const ProjectList = [
   },
 
   {
-    id: 10,
+    id: 11,
     name: "Palette Planner",
     image: Planner,
     skills: "ReactJS, TailwindCSS, JavaScript, Bootstrap Icons, uuid",
@@ -107,7 +118,7 @@ export const ProjectList = [
   },
 
   {
-    id: 11,
+    id: 12,
     name: "Date - Time Converter",
     image: TimeConverter,
     skills:
@@ -117,7 +128,7 @@ export const ProjectList = [
   },
 
   {
-    id: 12,
+    id: 13,
     name: "Vape Store Landing Page",
     image: vapeEcom,
     skills: "ReactJS, TailwindCSS, React Slick Carousel, Flowbite ",
@@ -126,7 +137,7 @@ export const ProjectList = [
   },
 
   {
-    id: 13,
+    id: 14,
     name: "Portfolio Website",
     image: Portfolio,
     skills: "ReactJS, JavaScript, CSS",
@@ -135,7 +146,7 @@ export const ProjectList = [
   },
 
   {
-    id: 14,
+    id: 15,
     name: "ToDo List",
     image: ToDo,
     skills: "ReactJS, TailwindCSS, JavaScript",
@@ -144,7 +155,7 @@ export const ProjectList = [
   },
 
   {
-    id: 15,
+    id: 16,
     name: "E-Commerce-Dom",
     image: EcomDom,
     skills: "CSS, Vanilla JavaScript, BootStrap, SCSS",
@@ -153,7 +164,7 @@ export const ProjectList = [
   },
 
   {
-    id: 16,
+    id: 17,
     name: "Invoice App",
     image: Invoice,
     skills: "CSS, BootStrap, SCSS, Vanilla JavaScript",
