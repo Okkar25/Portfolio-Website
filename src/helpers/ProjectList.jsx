@@ -9,6 +9,7 @@ import FlappyBird from "../assets/flappy-bird.png";
 import Weather_Flask from "../assets/flask_weather2.png";
 import FoodOrder from "../assets/food1.png";
 import Invoice from "../assets/invoicedom.png";
+import music_player from "../assets/music_player.png";
 import Planner from "../assets/palette-planner.png";
 import Portfolio from "../assets/portfolio1.png";
 import Spotify from "../assets/spotify2.png";
@@ -147,6 +148,15 @@ export const ProjectList = [
 
   {
     id: 15,
+    name: "Music Player",
+    image: music_player,
+    skills: "HTML, CSS, JavaScript",
+    github: "https://github.com/Okkar25/Vanilla-Music-Player",
+    demo: "https://vanilla-music-player.netlify.app/",
+  },
+
+  {
+    id: 16,
     name: "ToDo List",
     image: ToDo,
     skills: "ReactJS, TailwindCSS, JavaScript",
@@ -155,7 +165,7 @@ export const ProjectList = [
   },
 
   {
-    id: 16,
+    id: 17,
     name: "E-Commerce-Dom",
     image: EcomDom,
     skills: "CSS, Vanilla JavaScript, BootStrap, SCSS",
@@ -164,7 +174,7 @@ export const ProjectList = [
   },
 
   {
-    id: 17,
+    id: 18,
     name: "Invoice App",
     image: Invoice,
     skills: "CSS, BootStrap, SCSS, Vanilla JavaScript",
