@@ -78,7 +78,7 @@ export const ProjectList = [
     skills:
       "Python, Flask, SQLite, SQLAlchemy, Waitress, Flask-RESTful, Flask-Swagger-UI, Flask-CORS",
     github: "https://github.com/Okkar25/Simple_CRUD_Flask_REST_API",
-    demo: "https://simple-crud-flask-rest-api.onrender.com/api/users",
+    demo: "https://simple-crud-flask-rest-api.onrender.com/swagger",
   },
 
   {
