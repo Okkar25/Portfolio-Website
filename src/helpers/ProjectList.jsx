@@ -1,5 +1,4 @@
 import DevJobs from "../assets/DevJobs1.png";
-import Flask_API from "../assets/Flask_API.png";
 import OpenAI from "../assets/OpenAI_Keyword.png";
 import TimeConverter from "../assets/TimeConverter2.png";
 import CodePen from "../assets/codepen2.png";
@@ -13,6 +12,7 @@ import music_player from "../assets/music_player.png";
 import Planner from "../assets/palette-planner.png";
 import Portfolio from "../assets/portfolio1.png";
 import Spotify from "../assets/spotify2.png";
+import Flask_Swagger_API from "../assets/swagger.png";
 import ToDo from "../assets/todo2.png";
 import vapeEcom from "../assets/vapeEcom2.png";
 import Weather from "../assets/weather1.png";
@@ -74,9 +74,9 @@ export const ProjectList = [
   {
     id: 7,
     name: "Flask REST API (Users)",
-    image: Flask_API,
+    image: Flask_Swagger_API,
     skills:
-      "Python, Flask, SQLite, SQLAlchemy, Waitress, Flask-RESTful, Python-dotenv",
+      "Python, Flask, SQLite, SQLAlchemy, Waitress, Flask-RESTful, Flask-Swagger-UI, Flask-CORS",
     github: "https://github.com/Okkar25/Simple_CRUD_Flask_REST_API",
     demo: "https://simple-crud-flask-rest-api.onrender.com/api/users",
   },
