@@ -24,13 +24,17 @@ const Experience = () => {
             B.E.H.S (1) Thingangyun
           </h3>
           <p className="expTitle">High School Diploma</p>
-          <p className="expLabel"> &#128313; 5 Distinctions </p>
+          <p className="expLabel">
+            {" "}
+            &#128313; Gained 5 Distinctions in the High School Graduation Exam
+            with 3.7/4.0
+          </p>
         </VerticalTimelineElement>
 
         {/* YTU */}
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2017 - Present"
+          date="Dec 2017 - March 2020"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
@@ -38,8 +42,18 @@ const Experience = () => {
             Yangon Technological University
           </h3>
           <p className="expTitle">Bachelor of Engineering </p>
+
           <p className="expLabel">
-            &#128313; Electronics and Communication Engineering
+            &#128313; Studied Algorithmic Problem Solving in C++ and Java along
+            with Mathematics – Calculus, Analytic Geometry, Discrete
+            Mathematics, Linear Algebra, Probability and Statistics and
+            Trigonometry.
+          </p>
+
+          <p className="expLabel">
+            &#128313; Additional courses include Relational Databases,
+            Spreadsheet Programming, Frontend and Backend Web Development, API
+            Development and LINUX Operating System.
           </p>
         </VerticalTimelineElement>
 
@@ -184,7 +198,7 @@ const Experience = () => {
         {/* Python Language Tutor - Freelance */}
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="Sep 2024 - Jan 2025 ( Current )"
+          date="Sep 2024 - Feb 2025"
           iconStyle={{ background: "#4361ee", color: "#fff" }}
           icon={<WorkIcon />}
         >
@@ -232,8 +246,99 @@ const Experience = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="Jan 2025 - March 2025"
+          iconStyle={{ background: "#22577a", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Cashier / Barista / Kitchen Helper / Server
+          </h3>
+          <p className="expTitle">GY.Rose – Midtown Manhattan </p>
+          <p className="expLabel">
+            &#128313; Make various coffees – Cappuccino, Espresso, Americano and
+            Greek Iced coffees.
+          </p>
+          <p className="expLabel">
+            &#128313; Take orders from customers and processing them on the POS
+            system. Making sure the number of orders match the customers' online
+            orders and drinks.
+          </p>
+
+          <p className="expLabel">
+            &#128313; Heat Pita bread, cutting the meat from rotating griller
+            and grill them on the stove with the right amount of ingredients.
+            Fry Greek fried potatoes and some other delicious Greek foods.
+          </p>
+
+          <p className="expLabel">
+            &#128313; Make a record of cash in and cash out on a daily basis
+            before and after the restaurant close. Make sure there are enough
+            change in the drawer for customers.
+          </p>
+
+          <p className="expLabel">
+            &#128313; Deliver the food to customers and fulfilling their
+            request. Clean the tables and seating areas after the customers have
+            left and ensure the dining area is ready for the next customers.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="March 2025 - Current"
+          iconStyle={{ background: "#003459", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Clothes Dry-Cleaner and Amazon Packages-Handler
+          </h3>
+          <p className="expTitle">J's Cleaner – Lower Town Manhattan </p>
+
+          <p className="expLabel">
+            &#128313; Receiving clothes from clients, inspect the areas of
+            staining, torn areas and areas that needs modification.
+          </p>
+          <p className="expLabel">
+            &#128313; Identify different fabric types and apply the appropriate
+            cleaning techniques.
+          </p>
+
+          <p className="expLabel">
+            &#128313; Inspect garments for stains, damage, or special cleaning
+            requirements. Handle delicate and specialty fabrics such as silk,
+            wool, and leather.
+          </p>
+
+          <p className="expLabel">
+            &#128313; Maintain and clean dry cleaning equipment regularly to
+            ensure efficiency. Keep track of customer orders and ensure timely
+            delivery.
+          </p>
+
+          <p className="expLabel">
+            &#128313; Follow safety and environmental regulations regarding
+            chemical handling. Provide excellent customer service, including
+            addressing complaints and special requests.
+          </p>
+
+          <p className="expLabel">
+            &#128313; Receiving Packages from different delivery companies -
+            Amazon, SHEIN, TEMU, UPS and USPS. Arranging the package boxes,
+            labeling customers' apartment numbers and scanning bar codes before
+            placing them on shelves.
+          </p>
+
+          <p className="expLabel">
+            &#128313; Giving the packages out back to the customers according to
+            their pickup numbers. Making in and out of records for all packages
+            on Notifii App and moving them to front desks when necessary.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
           className="vertical-timeline-element--star"
-          iconStyle={{ background: "#ccd5ae", color: "#fff" }}
+          iconStyle={{ background: "#495057", color: "#fff" }}
           icon={<StarIcon />}
         />
       </VerticalTimeline>
