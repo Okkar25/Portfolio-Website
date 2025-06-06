@@ -9,6 +9,7 @@ import FlappyBird from "../assets/flappy-bird.png";
 import Weather_Flask from "../assets/flask_weather2.png";
 import FoodOrder from "../assets/food1.png";
 import Invoice from "../assets/invoice.png";
+import Movie from "../assets/movie1.png";
 import music_player from "../assets/music_player.png";
 import Planner from "../assets/palette-planner.png";
 import Portfolio from "../assets/portfolio1.png";
@@ -27,8 +28,18 @@ export const ProjectList = [
     github: "https://github.com/Okkar25/Spotify-Clone-Music-Streaming-App",
     demo: "https://spotify-clone-okkar-aung.vercel.app/",
   },
+
   {
     id: 2,
+    name: "Movie Website",
+    image: Movie,
+    skills: "ReactJS, JavaScript, Redux, Tailwind",
+    github: "https://github.com/Okkar25/Movie-Sync",
+    demo: "https://okkar-movie-sync.vercel.app/",
+  },
+
+  {
+    id: 3,
     name: "Code Pen Clone",
     image: CodePen,
     skills: "ReactJS, CodeMirror, JavaScript, Vanilla CSS",
@@ -37,7 +48,7 @@ export const ProjectList = [
   },
 
   {
-    id: 3,
+    id: 4,
     name: "Dev Jobs",
     image: DevJobs,
     skills: "ReactJS, JavaScript, Tailwind, Redux Toolkit, Axios, Vite",
@@ -46,7 +57,7 @@ export const ProjectList = [
   },
 
   {
-    id: 4,
+    id: 5,
     name: "Mini E-Commerce App",
     image: MiniEcom,
     skills:
@@ -55,7 +66,7 @@ export const ProjectList = [
     demo: "https://e-commerce-fullstack-deployment-okkar25.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     name: "Weather App",
     image: Weather,
     skills: "ReactJS, JavaScript, CSS",
@@ -64,7 +75,7 @@ export const ProjectList = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: "Food Order App",
     image: FoodOrder,
     skills: "NextJS, TypeScript, MUI, Prisma, Postgresql, Redux Toolkit",
@@ -73,7 +84,7 @@ export const ProjectList = [
   },
 
   {
-    id: 7,
+    id: 8,
     name: "Bookmark RESTful API Flask",
     image: Bookmark,
     skills:
@@ -83,7 +94,7 @@ export const ProjectList = [
   },
 
   {
-    id: 8,
+    id: 9,
     name: "User RESTful API Flask",
     image: Flask_Swagger_API,
     skills:
@@ -93,7 +104,7 @@ export const ProjectList = [
   },
 
   {
-    id: 9,
+    id: 10,
     name: "Weather App with Flask",
     image: Weather_Flask,
     skills:
@@ -103,7 +114,7 @@ export const ProjectList = [
   },
 
   {
-    id: 10,
+    id: 11,
     name: "E-Commerce VanillaJS",
     image: EcomDom,
     skills: "CSS, Vanilla JavaScript, BootStrap, SCSS",
@@ -112,7 +123,7 @@ export const ProjectList = [
   },
 
   {
-    id: 11,
+    id: 12,
     name: "Flappy Bird",
     image: FlappyBird,
     skills: "JavaScript, Kaboom.js",
@@ -121,7 +132,7 @@ export const ProjectList = [
   },
 
   {
-    id: 12,
+    id: 13,
     name: "OpenAI Keyword Extractor",
     image: OpenAI,
     skills: "ReactJS, Chakra UI, Open AI API, Vite, Framer Motion",
@@ -130,7 +141,7 @@ export const ProjectList = [
   },
 
   {
-    id: 13,
+    id: 14,
     name: "Palette Planner",
     image: Planner,
     skills: "ReactJS, TailwindCSS, JavaScript, Bootstrap Icons, uuid",
@@ -139,7 +150,7 @@ export const ProjectList = [
   },
 
   {
-    id: 14,
+    id: 15,
     name: "Vape Store Landing Page",
     image: vapeEcom,
     skills: "ReactJS, TailwindCSS, React Slick Carousel, Flowbite ",
@@ -148,7 +159,7 @@ export const ProjectList = [
   },
 
   {
-    id: 15,
+    id: 16,
     name: "Portfolio Website",
     image: Portfolio,
     skills: "ReactJS, JavaScript, CSS",
@@ -157,7 +168,7 @@ export const ProjectList = [
   },
 
   {
-    id: 16,
+    id: 17,
     name: "Music Player",
     image: music_player,
     skills: "HTML, CSS, JavaScript",
@@ -166,7 +177,7 @@ export const ProjectList = [
   },
 
   {
-    id: 17,
+    id: 18,
     name: "ToDo List",
     image: ToDo,
     skills: "ReactJS, TailwindCSS, JavaScript",
@@ -175,7 +186,7 @@ export const ProjectList = [
   },
 
   {
-    id: 18,
+    id: 19,
     name: "Date - Time Converter",
     image: TimeConverter,
     skills:
@@ -185,7 +196,7 @@ export const ProjectList = [
   },
 
   {
-    id: 19,
+    id: 20,
     name: "Invoice App",
     image: Invoice,
     skills: "TailwindCSS, Flowbite, React, JavaScript",
